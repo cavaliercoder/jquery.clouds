@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clouds src="misc.png">
+	<cloud left="0" top = "0" width = "81" height="44" />
+	<cloud left="81" top = "0" width="84" height="71" />
+	<cloud left="164" top = "0" width = "126" height="79" />
+	<cloud left="290" top = "0" width="73" height="98" />
+</clouds>

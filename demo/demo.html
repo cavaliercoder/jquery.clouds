@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jQuery Clouds Demonstration</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+<script type="text/javascript" src="../jquery.clouds-0.3.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('.header').clouds({
+							xmlMap: 'clouds.xml',
+							bobHeight: 0,
+							speed: 20
+							});
+							
+		$('.header').clouds({
+							xmlMap: 'misc.xml',
+							cloudCount: 1,
+							bobHeight: 10
+							});
+		
+		$('.content').clouds({
+							 cloudCount: 5,
+							 bobHeight: 10
+							 });
+
+	});
+</script>
+<style>
+body
+{
+	background-color: #3CF;
+}
+
+.header
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 200px;
+	width: 100%;
+}
+
+.content
+{
+	position: relative;
+	overflow: hidden;
+	margin: 150px auto;
+	border: 1px solid #333;
+	background-color: #FFE;
+	width: 600px;
+	height: 300px;
+	z-index: 2;
+}
+</style>
+</head>
+<body>
+<div class="header"></div>
+<div class="content">
+	<h1>jQuery Clouds Demo</h1>
+    <a href="http://www.cavaliercoder.com">http://www.cavaliercoder.com</a>
+</div>
+
+</body>
+</html>

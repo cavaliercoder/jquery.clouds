@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clouds src="clouds.png">
+	<cloud left="0" top = "0" width = "176" height="68" />
+	<cloud left="176" top = "0" width="194" height="69" />
+	<cloud left="0" top="68" width="142" height="67" />
+	<cloud left="142" top="69" width="201" height="67" />
+	<cloud left="0" top="135" width="106" height="50" />
+	<cloud left="106" top="137" width="93" height="46" />
+	<cloud left="199" top="136" width="115" height="65" />
+	<cloud left="0" top="185" width="77" height="34" />
+	<cloud left="77" top="184" width="122" height="43" />
+	<cloud left="199" top="201" width="47" height="22" />
+	<cloud left="251" top="201" width="58" height="29" />
+</clouds>
